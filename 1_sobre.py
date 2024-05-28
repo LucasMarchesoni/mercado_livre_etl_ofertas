@@ -22,9 +22,7 @@ st.markdown("""
   Na tabela de produtos possui informações como sua imagem, o link de acesso, o preço, descontos, etc. Na tabela de categorias possui informações como link de acesso para aquele filtro, total de itens e o título da categoria.
 """)
 
-btn_mercado_livre = st.button("Acesse a página com os dados")
-if btn_mercado_livre:
-  webbrowser.open_new_tab("https://www.mercadolivre.com.br/ofertas?container_id=MLB779362-1")
+st.markdown("[Acesse a página com os dados](https://www.mercadolivre.com.br/ofertas?container_id=MLB779362-1)")
 
 st.markdown("""
   ## Utilização do dashboard
