@@ -23,3 +23,19 @@ jobs:
 
       - name: Rodar ETL
         run: python etl/etl.py
+
+      - name: Configurar Git
+        run: |
+          git config --global user.email "lucasmarchesoni300@gmail.com"
+          git config --global user.name "LucasMarchesoni"
+
+      - name: Adicionar arquivos alterados
+        run: git add .
+
+      - name: Commit das alterações
+        run: git commit -m "Atualização automática do ETL"
+
+      - name: Push para o repositório
+        uses: ad-m/github-push-action@main
+        with:
+          github_token: ${{ secrets.ACTION_TOKEN }}
