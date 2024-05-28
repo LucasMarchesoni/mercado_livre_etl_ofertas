@@ -1,0 +1,25 @@
+name: Rodar Mercado Livre Ofertas ETL Job Diário
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+
+jobs:
+  run_etl:
+    name: Rodar processo ETL
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone código
+        uses: actions/checkout@v2
+
+      - name: Configurar Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar ETL
+        run: python etl/etl.py
