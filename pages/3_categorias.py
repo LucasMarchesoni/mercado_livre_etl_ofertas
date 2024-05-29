@@ -11,8 +11,7 @@ last_update_date = df_category['datetime'].max()
 last_update_date = last_update_date.strftime("%d/%m/%Y %H:%M:%S")
 
 max_date = df_category['datetime'].max()
-
-df_category = df_category[df_category['datetime'] == max_date]
+df_category = df_category[df_category['datetime'].dt.date == max_date.date()]
 
 st.title('Categorias')
 
