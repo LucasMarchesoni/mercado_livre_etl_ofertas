@@ -43,7 +43,7 @@ git clone https://github.com/LucasMarchesoni/mercado_livre_etl_ofertas.git
 
 ```
 python -m venv .venv
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 3. Instalação das dependências:
