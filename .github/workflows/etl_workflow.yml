@@ -1,8 +1,8 @@
 name: Rodar Mercado Livre Ofertas ETL Job Diário
 
-on:
-  schedule:
-    - cron: "0 9 * * *"
+# on:
+#   schedule:
+#     - cron: "0 9 * * *"
 
 jobs:
   run_etl:
