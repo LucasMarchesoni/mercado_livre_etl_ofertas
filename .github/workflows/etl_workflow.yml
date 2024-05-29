@@ -37,6 +37,6 @@ jobs:
         run: git commit -m "Atualização automática do ETL"
 
       - name: Push para o repositório
-        uses: ad-m/github-push-action@v4
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.ACTION_TOKEN }}
