@@ -28,3 +28,38 @@ Os dados são atualizados 1x por dia.
 - **Streamlit**: Biblioteca utilizada para desenvolvimento do dashboard.
 - **SQLite**: Banco de dados utilizado para armazenamento dos dados.
 - **Github Actions**: Automação do ETL do projeto.
+
+## Como executar o projeto
+
+Para executar o projeto, siga os passos:
+
+1. Clonar o repositório
+
+```
+git clone https://github.com/LucasMarchesoni/mercado_livre_etl_ofertas.git
+```
+
+2. Criar um ambiente virtual e ativar:
+
+```
+python -m venv .venv
+venv\Scripts\activate
+```
+
+3. Instalação das dependências:
+
+```
+pip install  -r requirements.txt
+```
+
+4. Execução do ETL (recomendado fazer uma vez ao dia):
+
+```
+python etl/etl.py
+```
+
+5. Iniciar o Streamlit:
+
+```
+streamlit run 1_sobre.py
+```
