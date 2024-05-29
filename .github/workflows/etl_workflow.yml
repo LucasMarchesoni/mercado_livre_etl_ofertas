@@ -1,6 +1,7 @@
 name: Rodar Mercado Livre Ofertas ETL Job Diário
 
-# on:
+on:
+  workflow_dispatch:
 #   schedule:
 #     - cron: "0 9 * * *"
 
