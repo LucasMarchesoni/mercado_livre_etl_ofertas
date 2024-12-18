@@ -14,7 +14,7 @@ A análise foi realizada retirando os dados do site **[mercado livre]("https://w
 
 No dashboard, pode-se conferir quais os indicadores existem para um melhor entendimento.
 
-**[Clique para ver o dashboard](https://mercadolivreetlofertas.streamlit.app/)**
+**[Clique para ver o dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWVmYWU1MWYtYTY0YS00OTU0LTk2YzMtNmI2ODNmZWFmNjVkIiwidCI6ImE5NjgwMmM4LTA0OTAtNDI3NC1iZDVmLTA5NzIxYWQzOWRjNiJ9)**
 
 ## Atualização dos dados
 
