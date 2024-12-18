@@ -25,7 +25,7 @@ Os dados são atualizados 1x por dia.
 - **Python**: Linguagem utilizada no projeto.
 - **Beautiful Soup**: Biblioteca para realizar do webscraping.
 - **Pandas**: Biblioteca utilizada para tratamento e manipulação da base.
-- **Streamlit**: Biblioteca utilizada para desenvolvimento do dashboard.
+- **Power BI**: Ferramenta utilizada para desenvolvimento do dashboard.
 - **SQLite**: Banco de dados utilizado para armazenamento dos dados.
 - **Github Actions**: Automação do ETL do projeto.
 
